@@ -10,7 +10,7 @@ export const HomeView = () => {
           className={styles["home-view__grid__header"]}
           size="32px"
           weight="500"
-          opacity={0.7}
+          opacity={1}
         >
           Strona główna
         </Text>

@@ -1,3 +1,5 @@
-export default function Home() {
-  return <div>Siemanko</div>;
+import { HomeView } from "@/lib/home/view";
+
+export default function HomePage() {
+  return <HomeView />;
 }

@@ -1,19 +1,12 @@
 import styles from "./home-view.module.scss";
 
-import { Grid, Text } from "@/home/components";
+import { Grid, SectionHeader, Text } from "@/home/components";
 
 export const HomeView = () => {
   return (
     <main className={styles["home-view"]}>
       <Grid className={styles["home-view__grid"]}>
-        <Text
-          className={styles["home-view__grid__header"]}
-          size="32px"
-          weight="500"
-          opacity={1}
-        >
-          Strona główna
-        </Text>
+        <SectionHeader heading="Do twojej dyspozycji" desc="PROFESJONALISTA" />
       </Grid>
     </main>
   );

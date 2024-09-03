@@ -1,0 +1,11 @@
+.section-header {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 4px;
+
+  grid-area: 1 / 3 / 2 / 8;
+}

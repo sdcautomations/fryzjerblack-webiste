@@ -7,7 +7,7 @@ export const Text = ({
   children,
   size = "24px",
   weight = "400",
-  opacity = 1,
+  opacity = "1",
   className,
 }: TextProps) => {
   const textClassNames = classNames(styles["text"], className);

@@ -27,11 +27,11 @@ export const ReviewCard = ({ content, name, className }: ReviewCardProps) => {
           direction="row"
           gap="16px"
         >
-          <Icon src="/assets/icons/star.svg" />
-          <Icon src="/assets/icons/star.svg" />
-          <Icon src="/assets/icons/star.svg" />
-          <Icon src="/assets/icons/star.svg" />
-          <Icon src="/assets/icons/star.svg" />
+          <Icon src="star.svg" />
+          <Icon src="star.svg" />
+          <Icon src="star.svg" />
+          <Icon src="star.svg" />
+          <Icon src="star.svg" />
         </Flex>
       </Flex>
     </Flex>

@@ -26,7 +26,10 @@ export const ReviewsSection = () => {
             name="Urszula"
           />
 
-          <ReviewCard content="Mega polecam, świetna robota " name="Marcin" />
+          <ReviewCard
+            content="Świetny salon, chodzę regularnie od trzech lat"
+            name="Szymon"
+          />
         </Flex>
       </Grid>
     </section>

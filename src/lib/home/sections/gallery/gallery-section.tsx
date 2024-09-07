@@ -11,13 +11,13 @@ export const GallerySection = () => {
       />
 
       <div className={styles["gallery-section__grid"]}>
-        <Image src={"img1.png"} />
-        <Image src={"img2.png"} />
-        <Image src={"img3.png"} />
+        <Image src={"gallery/img1.png"} />
+        <Image src={"gallery/img2.png"} />
+        <Image src={"gallery/img3.png"} />
 
-        <Image src={"img4.png"} />
-        <Image src={"img5.png"} />
-        <Image src={"img6.png"} />
+        <Image src={"gallery/img4.png"} />
+        <Image src={"gallery/img5.png"} />
+        <Image src={"gallery/img6.png"} />
       </div>
     </Grid>
   );

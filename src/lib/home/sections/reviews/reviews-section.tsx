@@ -1,4 +1,4 @@
-import { Grid, SectionHeader } from "@/home/components";
+import { Flex, Grid, ReviewCard, SectionHeader } from "@/home/components";
 import styles from "./reviews-sections.module.scss";
 
 export const ReviewsSection = () => {
@@ -10,6 +10,24 @@ export const ReviewsSection = () => {
           heading="Zadowolonych Klientów"
           desc="MNÓSTWO"
         />
+
+        <Flex
+          className={styles["reviews-section__cards"]}
+          direction="row"
+          gap="32px"
+        >
+          <ReviewCard
+            content="Super, polecam pełen profesjonalizm"
+            name="Karol"
+          />
+
+          <ReviewCard
+            content="Super podejście, świetny efekt strzyżenia i przede wszystkim opanowanie do najmłodszego klienta"
+            name="Urszula"
+          />
+
+          <ReviewCard content="Mega polecam, świetna robota " name="Marcin" />
+        </Flex>
       </Grid>
     </section>
   );

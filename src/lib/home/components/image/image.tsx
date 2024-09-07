@@ -8,10 +8,6 @@ export const Image = ({ src, alt, className }: ImageProps) => {
   const imageClassNames = classNames(styles["image"], className);
 
   return (
-    <img
-      className={imageClassNames}
-      src={`assets/images/gallery/${src}`}
-      alt={alt}
-    />
+    <img className={imageClassNames} src={`assets/images/${src}`} alt={alt} />
   );
 };

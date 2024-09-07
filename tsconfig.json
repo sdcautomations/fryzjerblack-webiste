@@ -19,7 +19,6 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@": ["./src/*"],
       "@/home/components": ["./src/lib/home/components/index.ts"],
       "@/home/sections": ["./src/lib/home/sections/index.ts"],
       "@/home/view": ["./src/lib/home/view/index.ts"]

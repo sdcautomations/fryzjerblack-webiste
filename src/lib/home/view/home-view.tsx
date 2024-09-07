@@ -1,6 +1,10 @@
 import styles from "./home-view.module.scss";
 
-import { GallerySection, ReviewsSection } from "@/home/sections";
+import {
+  GallerySection,
+  InteriorSection,
+  ReviewsSection,
+} from "@/home/sections";
 
 export const HomeView = () => {
   return (
@@ -8,6 +12,8 @@ export const HomeView = () => {
       <ReviewsSection />
 
       <GallerySection />
+
+      <InteriorSection />
     </main>
   );
 };

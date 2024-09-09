@@ -5,3 +5,5 @@ export * from "./flex";
 export * from "./review-card";
 export * from "./icon";
 export * from "./image";
+export * from "./divider";
+export * from "./info-card";

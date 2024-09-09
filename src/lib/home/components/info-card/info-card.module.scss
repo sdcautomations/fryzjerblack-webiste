@@ -1,0 +1,10 @@
+.info-card {
+  padding: 32px;
+
+  background-color: #1c1c1c;
+  border-radius: 8px;
+
+  &__content {
+    padding-block: 16px;
+  }
+}

@@ -1,3 +1,4 @@
+import { AboutSection } from "../sections/about";
 import styles from "./home-view.module.scss";
 
 import {
@@ -10,9 +11,11 @@ import {
 export const HomeView = () => {
   return (
     <main className={styles["home-view"]}>
-      <ReviewsSection />
+      <AboutSection />
 
       <GallerySection />
+
+      <ReviewsSection />
 
       <InteriorSection />
 

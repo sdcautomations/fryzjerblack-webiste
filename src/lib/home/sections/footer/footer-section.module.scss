@@ -1,0 +1,25 @@
+.footer-section {
+  padding: 64px;
+
+  &__logo {
+    border-radius: 8px;
+
+    grid-area: 1 / 1 / 2 / 4;
+  }
+
+  &__info {
+    grid-area: 1 / 6 / 2 / 9;
+  }
+
+  &__hours {
+    grid-area: 1 / 10 / 2 / -1;
+
+    &__content {
+      width: 100%;
+
+      &__item {
+        width: 100%;
+      }
+    }
+  }
+}

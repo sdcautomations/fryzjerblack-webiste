@@ -4,3 +4,4 @@ export * from "./interior";
 export * from "./information";
 export * from "./about";
 export * from "./footer";
+export * from "./copyright";

@@ -7,6 +7,7 @@ import {
   ReviewsSection,
   AboutSection,
   FooterSection,
+  CopyrightSection,
 } from "@/home/sections";
 
 export const HomeView = () => {
@@ -23,6 +24,8 @@ export const HomeView = () => {
       <InformationSection />
 
       <FooterSection />
+
+      <CopyrightSection />
     </main>
   );
 };

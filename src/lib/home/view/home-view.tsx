@@ -13,9 +13,9 @@ export const HomeView = () => {
     <main className={styles["home-view"]}>
       <AboutSection />
 
-      <ReviewsSection />
-
       <GallerySection />
+
+      <ReviewsSection />
 
       <InteriorSection />
 

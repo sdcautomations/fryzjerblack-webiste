@@ -1,4 +1,3 @@
-import { AboutSection } from "../sections/about";
 import styles from "./home-view.module.scss";
 
 import {
@@ -6,6 +5,8 @@ import {
   InformationSection,
   InteriorSection,
   ReviewsSection,
+  AboutSection,
+  FooterSection,
 } from "@/home/sections";
 
 export const HomeView = () => {
@@ -20,6 +21,8 @@ export const HomeView = () => {
       <InteriorSection />
 
       <InformationSection />
+
+      <FooterSection />
     </main>
   );
 };

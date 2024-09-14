@@ -5,3 +5,4 @@ export * from "./information";
 export * from "./about";
 export * from "./footer";
 export * from "./copyright";
+export * from "./hero";

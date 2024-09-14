@@ -1,6 +1,7 @@
 import styles from "./home-view.module.scss";
 
 import {
+  HeroSection,
   GallerySection,
   InformationSection,
   InteriorSection,
@@ -13,6 +14,8 @@ import {
 export const HomeView = () => {
   return (
     <main className={styles["home-view"]}>
+      <HeroSection />
+
       <AboutSection />
 
       <GallerySection />

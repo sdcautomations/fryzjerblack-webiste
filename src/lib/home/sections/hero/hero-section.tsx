@@ -10,11 +10,20 @@ export const HeroSection = () => {
         justify="center"
         align="center"
       >
-        <Text size="64px" weight="600">
+        <Text
+          className={styles["hero-section__header__title"]}
+          size="64px"
+          weight="600"
+        >
           Barber na którego możesz liczyć
         </Text>
 
-        <Text size="24px" weight="400" opacity="0.6">
+        <Text
+          className={styles["hero-section__header__subtitle"]}
+          size="24px"
+          weight="400"
+          opacity="0.6"
+        >
           SALON FRYZJERSKI "BLACK"
         </Text>
       </Flex>
@@ -24,7 +33,10 @@ export const HeroSection = () => {
 
         <Image src="hero/img2.png" />
 
-        <Image src="hero/img3.png" />
+        <Image
+          className={styles["hero-section__grid__third-img"]}
+          src="hero/img3.png"
+        />
       </div>
     </Grid>
   );

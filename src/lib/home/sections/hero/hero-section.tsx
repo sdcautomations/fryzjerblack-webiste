@@ -1,5 +1,10 @@
-import { Flex, Grid, Image, Text } from "@/home/components";
 import styles from "./hero-section.module.scss";
+
+import hero1 from "@/../public/assets/images/hero/img1.png";
+import hero2 from "@/../public/assets/images/hero/img2.png";
+import hero3 from "@/../public/assets/images/hero/img3.png";
+
+import { Flex, Grid, Image, Text } from "@/home/components";
 
 export const HeroSection = () => {
   return (
@@ -29,13 +34,13 @@ export const HeroSection = () => {
       </Flex>
 
       <div className={styles["hero-section__grid"]}>
-        <Image src="hero/img1.png" />
+        <Image src={hero1.src} />
 
-        <Image src="hero/img2.png" />
+        <Image src={hero2.src} />
 
         <Image
           className={styles["hero-section__grid__third-img"]}
-          src="hero/img3.png"
+          src={hero3.src}
         />
       </div>
     </Grid>

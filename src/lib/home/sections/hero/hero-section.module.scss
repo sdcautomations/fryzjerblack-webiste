@@ -20,11 +20,11 @@
 
     &__header {
       &__title {
-        font-size: 40px;
+        font-size: 40px !important;
       }
 
       &__subtitle {
-        font-size: 16px;
+        font-size: 16px !important;
       }
     }
 
@@ -32,6 +32,10 @@
       grid-template-columns: repeat(2, 1fr);
 
       gap: 16px;
+
+      * {
+        height: 300px;
+      }
 
       &__third-img {
         display: none;

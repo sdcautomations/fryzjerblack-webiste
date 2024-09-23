@@ -14,7 +14,7 @@ export const FooterSection = () => {
           Informacje
         </Text>
 
-        <Flex className={styles["footer-section__info__content"]} gap="16px">
+        <Flex className={styles["footer-section__info__content"]} gap="24px">
           <Text>fryzjerblack@gmail.com</Text>
 
           <Text>Radymno, Budowlanych 3</Text>
@@ -32,7 +32,7 @@ export const FooterSection = () => {
           Godziny Otwarcia
         </Text>
 
-        <Flex className={styles["footer-section__hours__content"]} gap="16px">
+        <Flex className={styles["footer-section__hours__content"]} gap="24px">
           <Flex
             className={styles["footer-section__hours__content__item"]}
             direction="row"

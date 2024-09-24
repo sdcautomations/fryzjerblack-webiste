@@ -1,13 +1,11 @@
 .hero-section {
   &__header {
     grid-area: 1 / 1 / 2 / -1;
-
     text-align: center;
   }
 
   &__grid {
     grid-area: 2 / 1 / 3 / -1;
-
     display: grid;
   }
 }
@@ -15,7 +13,6 @@
 @media screen and (max-width: 778px) {
   .hero-section {
     padding: 64px 32px 32px 32px;
-
     row-gap: 32px;
 
     &__header {
@@ -30,7 +27,6 @@
 
     &__grid {
       grid-template-columns: repeat(2, 1fr);
-
       gap: 16px;
 
       * {
@@ -47,16 +43,10 @@
 @media screen and (min-width: 779px) {
   .hero-section {
     padding: 64px;
-
     row-gap: 64px;
-
-    &__header {
-      text-align: center;
-    }
 
     &__grid {
       grid-template-columns: repeat(3, 1fr);
-
       gap: 32px;
     }
   }

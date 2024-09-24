@@ -30,7 +30,7 @@
       gap: 16px;
 
       * {
-        height: 300px;
+        aspect-ratio: 1 / 1.25;
       }
 
       &__third-img {
@@ -48,6 +48,10 @@
     &__grid {
       grid-template-columns: repeat(3, 1fr);
       gap: 32px;
+
+      div {
+        aspect-ratio: 1 / 1.25;
+      }
     }
   }
 }

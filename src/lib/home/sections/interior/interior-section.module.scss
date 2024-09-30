@@ -34,7 +34,7 @@
       row-gap: 8px;
 
       div {
-        height: 300px !important;
+        max-height: 300px !important;
       }
 
       &--small {

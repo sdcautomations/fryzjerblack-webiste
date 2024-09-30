@@ -1,18 +1,20 @@
 import styles from "./footer-section.module.scss";
 
+import logo from "@/../public/assets/images/footer/logo.png";
+
 import { Flex, Grid, Image, Text } from "@/home/components";
 
 export const FooterSection = () => {
   return (
     <Grid className={styles["footer-section"]}>
-      <Image className={styles["footer-section__logo"]} src="footer/logo.png" />
+      <img className={styles["footer-section__logo"]} src={logo.src} />
 
       <Flex className={styles["footer-section__info"]} gap="24px">
         <Text size="24px" weight="600">
           Informacje
         </Text>
 
-        <Flex className={styles["footer-section__info__content"]} gap="16px">
+        <Flex className={styles["footer-section__info__content"]} gap="24px">
           <Text>fryzjerblack@gmail.com</Text>
 
           <Text>Radymno, Budowlanych 3</Text>
@@ -22,11 +24,15 @@ export const FooterSection = () => {
       </Flex>
 
       <Flex className={styles["footer-section__hours"]} gap="24px">
-        <Text size="24px" weight="600">
+        <Text
+          className={styles["footer-section__title"]}
+          size="24px"
+          weight="600"
+        >
           Godziny Otwarcia
         </Text>
 
-        <Flex className={styles["footer-section__hours__content"]} gap="16px">
+        <Flex className={styles["footer-section__hours__content"]} gap="24px">
           <Flex
             className={styles["footer-section__hours__content__item"]}
             direction="row"

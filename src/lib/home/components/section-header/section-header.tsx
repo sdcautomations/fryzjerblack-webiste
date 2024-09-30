@@ -13,11 +13,20 @@ export const SectionHeader = ({
 
   return (
     <div className={headingClassNames}>
-      <Text size="20px" weight="400" opacity={"0.7"}>
+      <Text
+        className={styles["section-header__desc"]}
+        size="20px"
+        weight="400"
+        opacity={"0.7"}
+      >
         {desc}
       </Text>
 
-      <Text size="40px" weight="600">
+      <Text
+        className={styles["section-header__title"]}
+        size="40px"
+        weight="600"
+      >
         {heading}
       </Text>
     </div>

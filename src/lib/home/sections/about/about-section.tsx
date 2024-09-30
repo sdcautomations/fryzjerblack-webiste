@@ -1,5 +1,7 @@
 import styles from "./about-section.module.scss";
 
+import backgroundImage from "@/../public/assets/images/about/image1.jpg";
+
 import { Flex, Grid, Image, SectionHeader, Text } from "@/home/components";
 
 export const AboutSection = () => {
@@ -11,9 +13,11 @@ export const AboutSection = () => {
         heading="Do Twojej Dyspozycji"
       />
 
-      <Image
+      <div
         className={styles["about-section__image"]}
-        src="about/image1.png"
+        style={{
+          backgroundImage: `url('${backgroundImage.src}')`,
+        }}
       />
 
       <Flex

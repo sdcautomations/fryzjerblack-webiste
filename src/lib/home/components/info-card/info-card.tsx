@@ -31,9 +31,14 @@ export const InfoCard = ({
               gap="8px"
               key={i}
             >
-              <Icon src={info.iconPath} />
+              <Icon
+                className={styles["info-card__content__icon"]}
+                src={info.iconPath}
+              />
 
-              <Text size="20px">{info.content}</Text>
+              <Text className={styles["info-card__content__text"]} size="20px">
+                {info.content}
+              </Text>
             </Flex>
 
             {i === 2 ? null : <Divider />}

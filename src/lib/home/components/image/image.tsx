@@ -8,6 +8,9 @@ export const Image = ({ src, alt, className }: ImageProps) => {
   const imageClassNames = classNames(styles["image"], className);
 
   return (
-    <img className={imageClassNames} src={`assets/images/${src}`} alt={alt} />
+    <div
+      className={imageClassNames}
+      style={{ backgroundImage: `url('${src}')` }}
+    />
   );
 };

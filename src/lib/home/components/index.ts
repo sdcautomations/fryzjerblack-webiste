@@ -7,3 +7,5 @@ export * from "./icon";
 export * from "./image";
 export * from "./divider";
 export * from "./info-card";
+export * from "./carousel";
+export * from "./button";

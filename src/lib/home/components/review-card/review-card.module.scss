@@ -1,6 +1,8 @@
 .review-card {
   @media screen and (max-width: 778px) {
     width: 100%;
+    height: fit-content;
+    min-height: 200Ppx;
     margin: 0 auto;
 
     gap: 32px !important;
@@ -16,6 +18,13 @@
 
   &__bottom-bar {
     width: 100%;
+
+    @media screen and (max-width: 500px) {
+      &__stars img {
+        width: 16px !important;
+        height: 16px !important;
+      }
+    }
 
     &__stars img {
       width: 24px;

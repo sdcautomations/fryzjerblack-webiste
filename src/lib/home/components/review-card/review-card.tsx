@@ -17,6 +17,7 @@ export const ReviewCard = ({ content, name, className }: ReviewCardProps) => {
         className={styles["review-card__bottom-bar"]}
         direction="row"
         justify="space-between"
+        align="center"
       >
         <Text size="20px" weight="500">
           {name}
@@ -26,6 +27,7 @@ export const ReviewCard = ({ content, name, className }: ReviewCardProps) => {
           className={styles["review-card__bottom-bar__stars"]}
           direction="row"
           gap="16px"
+          align="center"
         >
           <Icon src="star.svg" />
           <Icon src="star.svg" />

@@ -29,7 +29,7 @@ export const HeroSection = () => {
           weight="400"
           opacity="0.6"
         >
-          SALON FRYZJERSKI &quot;BLACK&quot;
+          SALON FRYZJERSKI BLACK
         </Text>
       </Flex>
 

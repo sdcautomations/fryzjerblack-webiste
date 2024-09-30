@@ -1,0 +1,25 @@
+.button {
+  width: 42px;
+  height: 42px;
+
+  background-color: #1c1c1c;
+  color: #ffffff;
+  opacity: 0.9;
+
+  border-radius: 50px;
+
+  font-size: 20px;
+
+  cursor: pointer;
+  user-select: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--disabled {
+    opacity: 0.2;
+
+    cursor: auto;
+  }
+}

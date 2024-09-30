@@ -1,0 +1,10 @@
+.home-view {
+  color: #111;
+  font-size: 32px;
+
+  &__grid {
+    &__header {
+      grid-area: 1 / 2 / 2 / 4;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.copy-section {
+  padding: 32px;
+
+  &__text {
+    grid-area: 1 / 1 / 2 / -1;
+
+    display: flex;
+    justify-content: center;
+  }
+}

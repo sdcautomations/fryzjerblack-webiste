@@ -1,0 +1,41 @@
+@media screen and (max-width: 778px) {
+  .reviews-section {
+    row-gap: 32px;
+
+    padding: 32px;
+
+    &__header {
+      grid-area: 1 / 1 / 2 / -1;
+      justify-self: center;
+    }
+
+    &__cards {
+      display: none !important;
+    }
+
+    &__carousel {
+      grid-area: 2 / 1 / 3 / -1;
+    }
+  }
+}
+
+@media screen and (min-width: 779px) {
+  .reviews-section {
+    row-gap: 64px;
+
+    padding: 64px;
+
+    &__header {
+      grid-area: 1 / 1 / 2 / -1;
+      justify-self: center;
+    }
+
+    &__cards {
+      grid-area: 2 / 1 / 3 / -1;
+    }
+
+    &__carousel {
+      display: none !important;
+    }
+  }
+}

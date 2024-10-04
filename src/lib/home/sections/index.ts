@@ -6,3 +6,4 @@ export * from "./about";
 export * from "./footer";
 export * from "./copyright";
 export * from "./hero";
+export * from "./offer";

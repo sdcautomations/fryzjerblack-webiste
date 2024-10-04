@@ -9,6 +9,7 @@ import {
   AboutSection,
   FooterSection,
   CopyrightSection,
+  OfferSection,
 } from "@/home/sections";
 
 export const HomeView = () => {
@@ -21,6 +22,8 @@ export const HomeView = () => {
       <GallerySection />
 
       <ReviewsSection />
+
+      <OfferSection />
 
       <InteriorSection />
 

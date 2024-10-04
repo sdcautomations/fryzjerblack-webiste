@@ -9,3 +9,4 @@ export * from "./divider";
 export * from "./info-card";
 export * from "./carousel";
 export * from "./button";
+export * from "./offer-card";

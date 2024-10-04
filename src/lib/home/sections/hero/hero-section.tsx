@@ -1,6 +1,6 @@
 import styles from "./hero-section.module.scss";
 
-import hero1 from "@/../public/assets/images/hero/img1.png";
+import hero1 from "@/../public/assets/images/hero/img4.jpg";
 import hero2 from "@/../public/assets/images/hero/img2.png";
 import hero3 from "@/../public/assets/images/hero/img3.png";
 
